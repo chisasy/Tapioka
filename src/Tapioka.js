@@ -34,7 +34,7 @@ export default class Tapioka extends Component {
                     null
                 }
                 <img src={this.props.img} onClick={this.click}></img>               
-                <Likely count={this.props.count}>美味しかったら画像を押してください :</Likely>
+                <Likely count={this.props.count}></Likely>
             </div>
         );
 
